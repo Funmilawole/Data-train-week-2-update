@@ -1,0 +1,39 @@
+Basics - 
+Expression: Expressions combines values,strings, variables, operators etc. and calls to be evalauted. Expressions are sections of a code that evaluates to a value. They comnine operators anf variables to a single value. e.g. >>> 5 % 2 is 1
+Syntax Error: This is a basic form of error. This error arises when python is unable to understand the line of code. Some common syntax errors are: typos, incorrect indentation etc.
+Pep8: In python, Pep8 sets the rule on how to format python in forms that are readable to users; it maximises the readability of code. some of the rules include: code lay out are 4 spaces per indentation level, maximum line length is 79 amongst others.
+What does a Linter do: Linter is a program that supports the process of checking the source code programmers. This is useful for identifying common and uncommon mistakes made in coding 
+print("*" *When should we use “”” (tripe quotes) to define strings? 10) >>> **********
+Primitive 
+What is a variable - Variables are containers for storing data values. Value in Python has a datatype. Different data types in Python are Numbers, List, Strings, Dictionary, etc. 
+Primitive built-in types for python - Primitive Types are basic data structures in Python. They are the building block for data manipulation, and such contains pure, simple values of data. Python has four primitive types: integers, floats, booleans and strings. 
+When should we use “”” (tripe quotes) to define strings? - Codes are enclosed in three single or double quotes for multi-line strings . These are strings that don't wrap across multiple lines. That's what multiline-strings are for: These are strings surrounded by triple single or double quotes (''' or """) and are terminated only when a matching unescaped terminator is found. They can go on for as many lines as needed, and include all intervening whitespace.
+(name = “John Smith”) 
+In: name[1] 
+Out: 'O'
+In: name[-2]
+Out: 't'
+In: name[1:-1]
+Out: 'ohn smit'
+To get the length of name:
+In: len(name)
+Out: 10
+What are the escape sequences in Python?
+newline	Ignored
+\\	Backslash (\)
+\'	Single quote (')
+\"	Double quote (")
+\a	ASCII Bell (BEL)
+\b	ASCII Backspace (BS)
+\f	ASCII Formfeed (FF)
+\n	ASCII Linefeed (LF)
+\r	ASCII Carriage Return (CR)
+\t	ASCII Horizontal Tab (TAB)
+\v	ASCII Vertical Tab (VT)
+\ooo	ASCII character with octal value ooo
+\xhh...	ASCII character with hex value hh..
+In: '{2+2}+{10%3}'
+Out: '{2+2}+{10%3}'
+Given (name = “john smith”), what will name.title() return:
+In: name.title()
+Out: 'John Smith'
